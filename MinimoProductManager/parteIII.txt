@@ -1,0 +1,9 @@
+parteIII
+
+
+Para poder guardar toda esta información en base de datos se tendrán que crear varias tablas donde almacenar el contenido.
+
+Habrá una tabla de Usuarios donde constara el nombre del mismo y su cantidad de pedidos realizados.
+Luego habrá otra tabla de cada pedido de cada usuario con la cantidad de productos de ese pedido. Finalmente cada pedido tendra una lista de productos relacionados que formaran el pedido.
+
+Para guadar toda la información en la BD se creará un sistema de acceso DAO que implemente una serie de connexiones con la BD mediante "Prepared Statements". 
